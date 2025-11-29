@@ -26,7 +26,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
             <div className="container mx-auto px-4 py-12 flex-grow">
                 <Link
                     href="/#catalog"
-                    className="inline-flex items-center gap-2 text-[#436c3a] hover:text-[#2d4529] transition-colors mb-8 font-medium"
+                    className="inline-flex items-center gap-2 text-[#2d4529] hover:text-[#263923] transition-colors mb-8 font-medium"
                 >
                     <ArrowRight size={20} />
                     חזרה לקטלוג
@@ -41,7 +41,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
                             className="object-cover"
                             priority
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end">
                             <div className="p-8 md:p-12 text-white">
                                 <h1 className="text-4xl md:text-6xl font-bold mb-2">{category.title}</h1>
                                 <p className="text-xl md:text-2xl font-light opacity-90">{category.description}</p>

@@ -8,7 +8,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col">
       {/* Hero Section */}
       <section className="relative h-[80vh] flex items-center justify-center text-center text-white">
-        <div className="absolute inset-0 bg-black/40 z-10" />
+        <div className="absolute inset-0 bg-black/60 z-10" />
         <div className="absolute inset-0 z-0">
           <Image
             src="/assets/hero_nursery.webp"
@@ -74,7 +74,7 @@ export default function Home() {
                   />
                 </div>
                 <h3 className="text-xl font-bold text-earth-900 mb-2">{category.title}</h3>
-                <p className="text-earth-600 text-sm">{category.description}</p>
+                <p className="text-earth-700 text-sm">{category.description}</p>
               </Link>
             ))}
           </div>
